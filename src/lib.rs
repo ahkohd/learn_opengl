@@ -10,3 +10,5 @@ pub struct Vertex {
 }
 
 implement_vertex!(Vertex, position);
+
+pub type RcRefCell<T> = std::rc::Rc<std::cell::RefCell<T>>;
